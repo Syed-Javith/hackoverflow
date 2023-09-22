@@ -13,8 +13,45 @@
     width:350px;
     transition: all .8s cubic-bezier(0.7,-.5,0.3,0.8);
     transform-style: preserve-3d;
-    box-shadow: rgba(255,255,255, 0.16) 0px 10px 36px 4px, rgba(255,255,255, 0.06) 0px 0px 0px 4px;
     border-radius: 16px;
+}
+.domain:before,.domain:after{
+    content: ' ';
+    position: absolute;
+    top:-2.75px;
+    bottom: -2.75px;
+    left: -2.75px;
+    right: -2.75px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+.domain:before{
+    z-index: -1;
+}
+.domain:after{
+    z-index: -2;
+    filter: blur(20px);
+}
+.domain:before,.domain:after{
+    background: linear-gradient(235deg,#01ffee,#01272a,#e706e0);
+}
+.domain-front.health{
+    background-image: url('../../images/domains/health_sector.png');
+}
+.domain-front.agriculture{
+    background-image: url('../../images/domains/agricultural_sector.png');
+}
+.domain-front.smartcity{
+    background-image: url('../../images/domains/smart_city.png');
+}
+.domain-front.wastemgmt{
+    background-image: url('../../images/domains/waste_mgmt.png');
+}
+.domain-front.opendomain{
+    background-image: url('../../images/domains/open_domain.png');
+}
+.domain-front.elderly{
+    background-image: url('../../images/domains/elderly_and_disabled.png');
 }
 .wrapper:hover .domain{
     transform: rotateY(180deg);
@@ -30,14 +67,14 @@
 }
 .domain-front button{
     width: max-content;
-    margin: 1em;
-    border-radius: 16px;
-    padding: 14px 26px;
+    margin-bottom: 0.75em;
+    border-radius: 8px;
+    padding: 8px 24px;
     font-size: 0.9em;
     cursor: pointer;
-    background-color:#710857 ;
+    border: 2px solid white;
+    background-color: transparent;
     color: white;
-    border: none;
     outline: none;
     display: none;
 }
@@ -46,7 +83,6 @@
     height: 280px;
     border-radius: 16px;
     backface-visibility:hidden;
-    background-image: url('../../images/domain.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -55,7 +91,11 @@
     font-size: 1.15em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
+}
+.domain-front h2{
+    margin: 1em auto;
+    letter-spacing: 1px;
 }
 .domain-back{
     position: absolute;
@@ -67,7 +107,7 @@
     height: 280px;
 }
 .domain-back h2{
-    margin: 0.5em;
+    margin: 0.5em auto;
     margin-top: 0;
     font-size: 1.65em;
 }
@@ -85,5 +125,24 @@
     }
     .domain-front button{
         display: block;
+    }
+    .domain-front{
+        cursor: auto;
+    }
+    .domain-front h2{
+        margin: 0.75em;
+        margin-bottom: 0.25em;
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width:370px) {
+    .domain{
+        width: 320px;
+    }
+    .domain-front,.domain-back{
+        width: 320px;
+    }
+    .domain-front h2{
+        font-size: 1.4em;
     }
 }
