@@ -4,7 +4,7 @@ import Animate from '../Animate/Animate';
 function About(){
     return (
         <section id='about-section'>
-            <img className='abt-gif' src={gif1} alt='about-us-img'/>
+            {/* <img className='abt-gif' src={gif1} alt='about-us-img'/> */}
             <div className='container-abt'>
                 <div className="center-box">
                     <Animate title="rec-info" id="not-top" />

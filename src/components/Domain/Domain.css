@@ -1,6 +1,7 @@
 .domain-container{
     max-width: 1200px;
     margin: 2.5em auto;
+    margin-top: 0;
     padding: 1em;
     display: flex;
     flex-direction: row;
@@ -96,6 +97,7 @@
 .domain-front h2{
     margin: 1em auto;
     letter-spacing: 1px;
+    font-size: 1.5em;
 }
 .domain-back{
     position: absolute;
