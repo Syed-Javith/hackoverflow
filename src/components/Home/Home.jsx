@@ -3,6 +3,7 @@ import './Home.css'
 import Navbar from '../Navbar/Navbar';
 import Timer from '../Timer/Timer';
 import logo from '../../images/logo.png'
+import ParticleBackground from '../Particles/ParticlesBackground';
 
 function Home(){
     return (<div className='home'>
@@ -11,6 +12,7 @@ function Home(){
             <h1>Department of CSE proudly presents</h1>
             {/* <img src={logo} alt='logo' width={100}/> */}
             <Timer />
+            <ParticleBackground />
         </div>
         </div>
     );
