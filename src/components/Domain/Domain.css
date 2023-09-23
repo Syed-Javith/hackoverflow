@@ -1,5 +1,5 @@
 .domain-wrapper{
-    max-width: 1200px;
+    max-width: 96%;
     margin: 2.5em auto;
     margin-top: 0;
     padding: 1em;
@@ -9,7 +9,7 @@
     font-size: 3rem;
     font-weight: 600;
     text-align: center;
-    margin: 0.85em;
+    margin: 1.1em;
     letter-spacing: 0.1em;
     text-shadow: 0 0 10px #b700ff,0 0 20px #b700ff,0 0 40px #b700ff,0 0 80px #b700ff,0 0 120px #b700ff;
 }
@@ -22,7 +22,7 @@
     align-items: center;
 }
 .domain{
-    width:350px;
+    width:370px;
     transition: all .8s cubic-bezier(0.7,-.5,0.3,0.8);
     transform-style: preserve-3d;
     border-radius: 16px;
@@ -69,7 +69,7 @@
     transform: rotateY(180deg);
 }
 .domain-front,.domain-back{
-    width: 350px;
+    width: 370px;
     backface-visibility: hidden;
     position: relative;
     top:0;
@@ -128,7 +128,6 @@
     line-height: 1.5;
     font-size: 1em;
 }
-
 @media screen and (max-width:700px) {
     .wrapper:hover .domain{
         transform: rotateY(0deg);
@@ -148,7 +147,7 @@
         font-size: 1.5em;
     }
 }
-@media screen and (max-width:370px) {
+@media screen and (max-width:400px) {
     .domain{
         width: 320px;
     }
