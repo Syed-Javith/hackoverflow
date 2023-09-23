@@ -6,23 +6,20 @@
 .home h1{
     color: white;
 }
-.home img{
-    width: 700px;
-    object-fit: cover;
-}
-/* Home.css */
-
 .home {
-    /* Your existing styles for .home here */
-  
-    /* Example: Add padding to separate particles from other content */
     padding: 20px;
-  }
-  
-  .particle-container {
-    /* Set a fixed height for the particle container */
-    height: 400px; /* Adjust this value to your desired height */
-    /* You can also use other units like 'vh' or 'rem' */
-    /* overflow: hidden; */ /* Optional: Use this if you want to hide overflow */
-  }
-  
+}
+
+.home-logo{
+    width: 100%;
+    object-fit: cover;
+    animation: big 1s linear 3;
+}
+@keyframes big {
+    0%{
+       width: 90%; 
+    }
+    100%{
+        width: 92%;
+    }
+}

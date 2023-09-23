@@ -2,12 +2,13 @@ import React from 'react'
 import './Footer.css'
 import MediaLinks from './MediaLinks'
 import { FaPhoneAlt } from 'react-icons/fa'
+import recLogo from '../../images/Footer/rec.jpg'
 const Footer = () => {
   return (
     <footer>
       <div className='row'>
         <div className="col-lg-4">
-
+          <img src={recLogo} height={200} width={200}/>
         </div>
         <div className="col-lg-4">
 

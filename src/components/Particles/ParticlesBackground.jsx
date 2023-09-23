@@ -11,7 +11,8 @@ export default function ParticleBackground() {
 	};
 	return (
 		<Particles
-			params={particlesConfig}
+			// params={particlesConfig}
+			options={particlesConfig} 
 			id="tsparticles"
 			init={particlesInit}
 			loaded={particlesLoaded}

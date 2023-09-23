@@ -1,6 +1,7 @@
 footer{
-    background: url('../../images/footer_purple.jpg');
+    background: url('../../images/Footer/footer_purple.jpg');
     padding: 20px;
+    width: 100%;
 }
 
 #contact-us svg{
