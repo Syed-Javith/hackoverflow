@@ -1,0 +1,9 @@
+svg{
+    width: 150px;
+    height: 150px;
+}
+.circle { 
+    width: 150px;
+    height: 150px;
+    stroke: #4CC790; fill: none; stroke-width: 1; stroke-linecap: round; animation: progress 1s ease-out forwards;
+}
