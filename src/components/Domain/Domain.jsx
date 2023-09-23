@@ -5,7 +5,7 @@ function Domain(){
 
     return (
         <div className="domain-wrapper">
-            <h2 className='section-title'>DOMAINS</h2>
+            <h2 className='section-title'>Domains</h2>
             <div className="domain-container">
                 <DomainCard image="health" title="Health Sector"/>
                 <DomainCard image="agriculture" title="Agricultural Sector"/>

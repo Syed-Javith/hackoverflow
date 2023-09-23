@@ -1,6 +1,6 @@
 .domain-wrapper{
     max-width: 96%;
-    margin: 2.5em auto;
+    margin: 1em auto;
     margin-top: 0;
     padding: 1em;
 }
@@ -9,7 +9,7 @@
     font-size: 3rem;
     font-weight: 600;
     text-align: center;
-    margin: 1.1em;
+    margin: 1.1em 0;
     letter-spacing: 0.1em;
     text-shadow: 0 0 10px #b700ff,0 0 20px #b700ff,0 0 40px #b700ff,0 0 80px #b700ff,0 0 120px #b700ff;
 }
