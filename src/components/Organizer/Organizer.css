@@ -1,4 +1,37 @@
 .organizer-container{
     max-width: 1200px;
     margin: 2em auto;
+    display: flex;
+    flex-direction: row;
+    gap:2em;
+    padding: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.organizer{
+    width:340px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.organizer-pic{
+    width: 100%;
+    max-height: 300px;
+}
+.organizer-pic img{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    filter: grayscale(0.2)
+}
+.organizer-info{
+    padding: 1em;
+    color: white;
+    background-color: rgba(255,255,255,0.2);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }

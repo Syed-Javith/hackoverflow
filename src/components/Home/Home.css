@@ -1,0 +1,12 @@
+.home{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.home h1{
+    color: white;
+}
+.home img{
+    height: 400px;
+    width: 400px;
+}
