@@ -1,16 +1,17 @@
 import './Home.css'
-// import hackoverflow from '../../images/logo.png'
-import Navbar from '../Navbar/Navbar';
 import Timer from '../Timer/Timer';
-import logo from '../../images/logo.png'
+import logo from '../../images/glow_title.png'
+import ParticleBackground from '../Particles/ParticlesBackground';
 
 function Home(){
     return (<div className='home'>
-        <Navbar />
         <div>
             <h1>Department of CSE proudly presents</h1>
-            {/* <img src={logo} alt='logo' width={100}/> */}
+            <img src={logo}  className='home-logo'/>
             <Timer />
+            <div className='particles'>
+            <ParticleBackground />
+            </div>
         </div>
         </div>
     );
