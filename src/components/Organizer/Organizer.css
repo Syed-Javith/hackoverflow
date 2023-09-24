@@ -33,10 +33,10 @@
 .organizer img{
     transform: translateZ(8px);
     width: 220px;
-    height: 210px;
+    height: 220px;
     margin: 2em 0;
     margin-bottom: 1.75em;
-    border-radius: 12px;
+    border-radius: 50%;
     object-fit: cover;
 }
 .organizer-info h2{
