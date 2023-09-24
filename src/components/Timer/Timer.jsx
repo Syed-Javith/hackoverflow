@@ -10,9 +10,6 @@ const Timer = () => {
   const [seconds, setSeconds] = useState(0);
 
   const deadline = "October, 30, 2023";
-  // eslint-disable-next-line 
-  let strokeDashoffset=0;
-
 
   const getTime = () => {
     const time = Date.parse(deadline) - Date.now();
@@ -36,10 +33,11 @@ const Timer = () => {
       <Circle text={days + " Days"} strokeWidth={0.5} strokeDashoffset={days/365*100}/> 
       <Circle text={hours + " Hours"} strokeDashoffset={hours/24*100}/>
       <Circle text={minutes + " Minutes"} strokeDashoffset={minutes/60*100}/>
-      <Circle text={seconds + " Seconds"} strokeDashoffset={seconds/60*100}/>
+      <Circle
+      timer={seconds/10} text={seconds + " Seconds"} strokeDashoffset={seconds/60*100}/>
      
     </div>
-     <h1>{days} : {hours} : {minutes} : {seconds}</h1>
+     {/* <h1>{days} : {hours} : {minutes} : {seconds}</h1> */}
      </div>
   );
 };
