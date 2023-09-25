@@ -10,13 +10,11 @@ import Footer from '../Footer/Footer'
 const PostLoader = () => {
   return (
     <>
-        <Navbar />
       <Home />
       <About />
       <Domain />
       <Sponsors />
       <Organizer />
-      <Footer />
     </>
   )
 }

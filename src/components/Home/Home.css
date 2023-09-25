@@ -1,67 +1,44 @@
-.home{
-    /* background-color: black; */
-    text-align: center;
-    padding: 10px;
+@font-face {
+    font-family: 'AudioWideRegular';
+    src: url('../../assets/Audiowide-Regular.ttf');
 }
-.home h1{
+.home-container{
+    position: relative;
+    min-height: 100vh;
+}
+.home-particles{
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 100vh;
+}
+.home-content{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
     color: white;
 }
-.home {
-    padding: 20px;
+.home-content .rec-logo{
+    width: 20vw;
 }
-
-.home-logo{
-    width: 50%;
+.home-content h1{
+    margin: 0.5em 0;
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 0.25rem;
+    font-family: 'AudioWideRegular';
+}
+.home-content p{
+    font-size: 1.75rem;
+    margin-bottom: 0em;
+    font-style: italic;
+}
+.home-content .hackoverflow-logo{
+    width: 50vw;
+    height: 125px;
     object-fit: cover;
-    animation: big 1s linear;
-}
-@keyframes big {
-    /* 0%{
-       opacity: 0;
-    }
-    20%{
-        opacity: 0.2;
-    }
-    40%{
-        opacity: 0.4;
-    }
-    60%{
-        opacity: 0.6;
-    }
-    100%{
-        opacity: 1;
-    } */
-    0%{
-        opacity: 1;
-     }
-     10%{
-         opacity: 0.8;
-     }
-     20%{
-         opacity: 0.6;
-     }
-     30%{
-         opacity: 0.4;
-     }
-     40%{
-        opacity: 0.2;
-     }
-     50%{
-         opacity: 0.1;
-     }
-     60%{
-        opacity: 0.2;
-    }
-    70%{
-        opacity: 0.4;
-    }
-    80%{
-        opacity: 0.6;
-    }
-    90%{
-        opacity: 0.8;
-    }
-    100%{
-        opacity: 1;
-    }
 }
