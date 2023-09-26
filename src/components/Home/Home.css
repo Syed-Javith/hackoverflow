@@ -5,11 +5,14 @@
 }
 .home h1{
     color: white;
+    font-size: 30px;
 }
 .home {
     padding: 20px;
 }
-
+.home img{
+    margin: 2em;
+}
 .home-logo{
     width: 50%;
     object-fit: cover;

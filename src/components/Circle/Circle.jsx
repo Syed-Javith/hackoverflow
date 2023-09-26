@@ -22,17 +22,18 @@ const Circle = (props) => {
           stroke="#444"
           strokeWidth={props.strokeWidth}
           strokeDasharray={`${props.strokeDashoffset}, 100`}
+          filter="url(#glow)"
         />
 
         {/* Main circle */}
-        <circle id="movingDot" r="2" fill="#70079b">
+        {/* <circle id="movingDot" r="2" fill="#70079b">
           <animateMotion repeatCount="indefinite" dur="60s">
             <mpath href="#orbitPath" />
           </animateMotion>
-        </circle>
+        </circle> */}
 
         {/* Small dot at the end of the path */}
-        <circle cx={dotX} cy={dotY} r="2" fill="#444" />
+        {/* <circle cx={dotX} cy={dotY} r="2" fill="#444" /> */}
 
         <text x="50%" y="50%" textAnchor="middle" dy=".3em" fill='white' fontSize="5">
           {props.text}
