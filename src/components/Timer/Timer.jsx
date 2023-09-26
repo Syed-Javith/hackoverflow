@@ -14,8 +14,8 @@ const Timer = () => {
   const getTime = () => {
     const time = Date.parse(deadline) - Date.now();
 
-    setDays(Math.floor(time / (1000 * 60 * 60 * 24))+100);
-    setHours(Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))+20);
+    setDays(Math.floor(time / (1000 * 60 * 60 * 24)));
+    setHours(Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
     setMinutes(Math.floor((time % (1000 * 60 * 60)) / (1000 * 60)));
     setSeconds(Math.floor((time % (1000 * 60 )) / (1000)));
 
