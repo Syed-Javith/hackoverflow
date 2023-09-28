@@ -12,6 +12,9 @@
 *{
     font-family: 'PoppinsRegular';
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
     min-height: 100vh;

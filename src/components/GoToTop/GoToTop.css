@@ -1,0 +1,13 @@
+.to-top{
+    position: fixed; 
+    width: 54px;
+    right: 2%;
+    bottom: 2%;
+    height: 54px;
+    border: 2.5px solid white;
+    border-radius: 50%;
+    z-index: 1;
+    cursor: pointer;
+    background-color: #9c019a;
+    color:white;
+}

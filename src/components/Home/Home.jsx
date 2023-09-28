@@ -1,6 +1,6 @@
 import './Home.css'
 import Timer from '../Timer/Timer';
-import logo from '../../images/glow_title.png'
+import logo from '../../images/logo.png'
 import ParticleBackground from '../Particles/ParticlesBackground';
 import rec from '../../images/rec_logo.png'
 
