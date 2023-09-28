@@ -131,10 +131,18 @@
     .tcard:nth-child(odd) .tcard-content::before,.tcard:nth-child(even) .tcard-content::before{
         top: auto;
         bottom: 6px;
-        left: 49.2%;
+        left: 49.1%;
     }
     .tcard:nth-last-child(1) .tcard-content::before{
         height: 0;
         width: 0;
+    }
+}
+@media screen and (max-width:400px){
+    .timeline-container{
+        margin:auto 1em;
+    }
+    .tcard:nth-child(odd) .tcard-content::before,.tcard:nth-child(even) .tcard-content::before{
+        left: 48.85%;
     }
 }
