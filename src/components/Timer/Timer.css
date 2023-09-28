@@ -3,8 +3,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 4em 0;
+    margin: 3em 0;
     align-items: center;
+    gap: 2em;
 }
 .timer-container .timer-circle{
     position: relative;
@@ -68,4 +69,17 @@
     background: var(--clr);
     border-radius: 50%;
     box-shadow: 0 0 20px var(--clr),0 0 60px var(--clr),0 0 80px var(--clr),0 0 100px var(--clr);
+}
+
+@media screen and (max-width:1250px){
+    .timer-container{
+        justify-content: center;
+        gap: 2.5em;
+    }
+}
+@media screen and (max-width:500px){
+    .timer-container{
+        row-gap: 2em;
+        column-gap: 1.75em;
+    }
 }

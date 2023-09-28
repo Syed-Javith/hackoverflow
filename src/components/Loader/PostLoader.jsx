@@ -6,6 +6,7 @@ import Domain from '../Domain/Domain'
 import Sponsors from '../Sponsors/Sponsors'
 import Organizer from '../Organizer/Organizer'
 import Footer from '../Footer/Footer'
+import Timeline from '../Timeline/Timeline'
 
 const PostLoader = () => {
   return (
@@ -13,8 +14,10 @@ const PostLoader = () => {
       <Home />
       <About />
       <Domain />
+      <Timeline />
       <Sponsors />
       <Organizer />
+      <Footer />
     </>
   )
 }
