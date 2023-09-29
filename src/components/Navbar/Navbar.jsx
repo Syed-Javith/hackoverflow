@@ -5,7 +5,7 @@ function Navbar(){
     return (
         <div class="header">
         <div class="logo-title">
-        <h1><a href="/"><img src={logo}/></a></h1>
+        <h1><a href="/"><img src={logo} /></a></h1>
         </div>     
         <i id="menu-btn" class="fa-solid fa-bars"></i>
         <nav class="navbar-container">

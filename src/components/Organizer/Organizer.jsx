@@ -7,10 +7,6 @@ import rhikshitha from '../../images/organizers/rhikshitha.jpeg'
 import manosanjay from '../../images/organizers/manosanjay.jpeg'
 import VanillaTilt from 'vanilla-tilt'
 import { useEffect } from 'react'
-// import {FaInstagram} from 'react-icons/fa6'
-// import {FaLinkedin} from 'react-icons/fa6'
-// import {FaSquareGithub} from 'react-icons/fa6'
-// import { IconContext } from 'react-icons'
 
 
 function Organizer(){

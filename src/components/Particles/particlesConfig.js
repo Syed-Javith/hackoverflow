@@ -1,6 +1,6 @@
 const particlesConfig = {
     "fullScreen": {
-        "enable": true,
+        "enable": false,
         "zIndex": -1
     },
     "particles": {
@@ -111,11 +111,11 @@ const particlesConfig = {
     },
     "retina_detect": true,
     "background": {
-        "color": "#111",
+        "color": "#0E0712",
         "image": "",
         "position": "50% 50%",
         "repeat": "no-repeat",
-        "size": "cover"
+        "size": "cover",
     }
 }
 export default  particlesConfig

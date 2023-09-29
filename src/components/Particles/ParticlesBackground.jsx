@@ -1,6 +1,8 @@
 import Particles from "react-tsparticles";
 import particlesConfig from './particlesConfig';
 import { loadFull } from "tsparticles";
+import '../Home/Home.css'
+
 export default function ParticleBackground() {
 	const particlesInit = async (main) => {
 		console.log(main);
@@ -11,7 +13,7 @@ export default function ParticleBackground() {
 	};
 	return (
 		<Particles
-			// params={particlesConfig}
+			style={{width:"300px", minHeight:"100vh"}}
 			options={particlesConfig} 
 			id="tsparticles"
 			init={particlesInit}

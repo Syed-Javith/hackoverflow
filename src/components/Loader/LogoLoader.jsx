@@ -6,7 +6,7 @@ const LogoLoader = () => {
     <img src={logo} alt="" style={
         {
             height : '100vh',
-            width : '100%'
+            width : '110vw'
         }
     }/>
   )
