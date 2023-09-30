@@ -6,7 +6,8 @@ const LogoLoader = () => {
     <img src={logo} alt="" style={
         {
             height : '100vh',
-            width : '110vw'
+            width : '100%',
+            objectFit:"cover"
         }
     }/>
   )

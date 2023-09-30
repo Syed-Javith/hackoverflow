@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './GoToTop.css'
 import { FaAngleUp } from 'react-icons/fa';
-const GoToTop = () => {
+function GoToTop(){
 
   const [visible, setVisible] = useState(false)
   
@@ -25,8 +25,9 @@ const GoToTop = () => {
   window.addEventListener('scroll', toggleVisible);
 
   return (
-    <button className='to-top' onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}}><FaAngleUp />
-     </button>
+    <button className='to-top' onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}}>
+      <FaAngleUp size="1.7em"/>
+    </button>
   )
 }
 

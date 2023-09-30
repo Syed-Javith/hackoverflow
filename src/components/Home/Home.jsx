@@ -1,6 +1,6 @@
 import './Home.css'
 import Timer from '../Timer/Timer';
-import logo from '../../images/glow_title.png'
+import logo from '../../images/logo.png'
 import ParticleBackground from '../Particles/ParticlesBackground';
 import rec from '../../images/rec_logo.png'
 
@@ -10,7 +10,7 @@ function Home(){
             <div className="home-particles">
                 <ParticleBackground />
             </div>
-            <div className="home-content">
+            <div className="home-content" style={{marginTop:"2em"}}>
                 <img src={rec} alt="" className='rec-logo'/>
                 <h1>Department of CSE</h1>
                 <p>proudly presents</p>

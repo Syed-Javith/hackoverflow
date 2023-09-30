@@ -1,14 +1,14 @@
 const particlesConfig = {
     "fullScreen": {
-        "enable": false,
+        "enable": true,
         "zIndex": -1
     },
     "particles": {
         "number": {
-            "value": 10,
+            "value": 5,
             "density": {
                 "enable": false,
-                "value_area": 800
+                "value_area": 1000
             }
         },
         "color": {
@@ -31,7 +31,7 @@ const particlesConfig = {
             }
         },
         "size": {
-            "value": 4,
+            "value": 2,
             "random": false,
             "anim": {
                 "enable": false,
@@ -52,7 +52,7 @@ const particlesConfig = {
         },
         "line_linked": {
             "enable": true,
-            "distance": 600,
+            "distance": 300,
             "color": "#800080",
             "opacity": 0.9,
             "width": 3
@@ -85,14 +85,14 @@ const particlesConfig = {
         },
         "modes": {
             "grab": {
-                "distance": 400,
+                "distance": 200,
                 "line_linked": {
                     "opacity": 1,
                     
                 }
             },
             "bubble": {
-                "distance": 400,
+                "distance": 200,
                 "size": 40,
                 "duration": 2,
                 "opacity": 8,

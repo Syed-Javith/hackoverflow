@@ -13,8 +13,8 @@ function Organizer(){
 
    useEffect(()=>{
         VanillaTilt.init(document.querySelectorAll(".organizer"), {
-            max: 25,
-            speed: 500,
+            max: 15,
+            speed: 300,
             glare:1,
             "max-glare":.4
         })

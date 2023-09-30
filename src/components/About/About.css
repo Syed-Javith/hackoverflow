@@ -5,7 +5,7 @@
   text-align: center;
   margin: 0.85em 0;
   margin-bottom: 0;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   text-shadow:  0 0 10px #b700ff,0 0 20px #b700ff,0 0 40px #b700ff,0 0 80px #b700ff,0 0 120px #b700ff;
 }
 .animated-border-box, .animated-border-box-glow{
@@ -43,8 +43,11 @@
     top: 5px;
     width: calc(100% - 10px);
     height: calc(100% - 10px);
-    background:  rgb(44, 41, 40,0.6);
-    /* background: rgba(44,41,40,0.75); */
+    /* background:  rgb(44, 41, 40); */
+    background: linear-gradient(rgba(23, 8, 23, 0.75),rgba(23,8,23,0.75)),url('../../images/about-bg.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     border-radius: 7px;
   }
   @keyframes rotate {

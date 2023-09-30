@@ -53,3 +53,37 @@
     height: 125px;
     object-fit: cover;
 }
+
+@media screen and (max-width:1250px){
+    .home-content{
+        width: 94vw;
+    }
+    .home-content h1{
+        font-size: 2.4rem;
+    }
+}
+@media screen and (max-width:1000px){
+    .home-content .rec-logo{
+        width: 32vw;
+    }
+}
+@media screen and (max-width:800px){
+    .home-content h1{
+        font-size: 2rem;
+    }
+    .home-content p{
+        font-size: 1.5rem;
+    }
+    .home-content .hackoverflow-logo{
+        height: 100px;
+        width: 70vw;
+    }
+}
+@media screen and (max-width:500px){
+    .home-content .rec-logo{
+        width: 50vw;
+    }
+    .home-content .hackoverflow-logo{
+        width: 90vw;
+    }
+}
