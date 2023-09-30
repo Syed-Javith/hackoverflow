@@ -32,6 +32,17 @@
     margin-bottom: 0.25rem;
     font-family: 'AudioWideRegular';
 }
+
+.home-content .rec-logo{
+    width: 20vw;
+}
+.home-content h1{
+    margin: 0.5em 0;
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 0.25rem;
+    font-family: 'AudioWideRegular';
+}
 .home-content p{
     font-size: 1.75rem;
     margin-bottom: 0em;

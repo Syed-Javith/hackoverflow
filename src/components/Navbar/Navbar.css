@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0);
     z-index: 1000;
 }
 .header nav{
@@ -39,6 +39,10 @@
 .header a{
     text-decoration: none;
     color: white;
+}
+.header img{
+    height: 200px;
+    width: 200px;
 }
 @media screen and (max-width:1400px) {
     .header{
