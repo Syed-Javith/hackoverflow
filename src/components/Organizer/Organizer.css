@@ -1,8 +1,10 @@
 .organizers-container{
-    max-width: 1200px;
+    max-width: 96%;
     margin: 2.5em auto;
     margin-top: 0;
     padding: 1em;
+    scroll-behavior: smooth;
+    cursor: pointer;
 }
 .organizers-container .section-title{
     color: white;
@@ -14,15 +16,25 @@
     letter-spacing: 0.08em;
     text-shadow: 0 0 10px #b700ff,0 0 20px #b700ff,0 0 40px #b700ff,0 0 80px #b700ff,0 0 120px #b700ff;
 }
+.organizers-main-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.org-icon{
+    font-size: 3em;
+    cursor: pointer;
+}
 .organizers-wrap{
     display: flex;
     flex-direction: row;
-    gap:3em;
-    flex-wrap: wrap;
-    justify-content: center;
+    gap:2em;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
 }
 .organizer{
-    width: 320px;
+    min-width: 300px;
     text-align: center;
     box-sizing: border-box;
     background-color: rgba(255,255,255,0.2);
@@ -32,8 +44,8 @@
 }
 .organizer img{
     transform: translateZ(8px);
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
     margin: 2em 0;
     margin-bottom: 1.75em;
     border-radius: 50%;
@@ -44,16 +56,32 @@
     color: white;
     font-weight: 900;
     letter-spacing: 2px;
-    font-size: 1.75em;
+    font-size: 1.4em;
 }
 .position{
     color: white;
     font-size: 1.05em;
     padding-bottom: 1em;
 }
-.contact-icons{
-    color: white;
-    display: flex;
-    flex-direction: row;
-    font-size: 1em;
+
+@media screen and (max-width:400px){
+    .organizers-container{
+        max-width: 100%;
+    }
+    .organizer{
+        gap: 12px;
+    }
+    .organizer{
+        min-width: 260px;
+    }
+    .organizer img{
+        width: 180px;
+        height: 180px;
+    }
+    .organizers-main-wrapper{
+        gap: 4px;
+    }
+    .org-icon{
+        font-size: 2em;
+    }
 }
