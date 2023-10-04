@@ -1,10 +1,8 @@
 import React from 'react'
 import './Register.css'
-import ParticleBackground from '../Particles/ParticlesBackground'
 const Register = () => {
   return (
     <>
-    <ParticleBackground/>
     <div id='text'><h1>Register</h1></div>
     <div className='register-page flick'>
       <h3>About Hackoverflow:</h3>
