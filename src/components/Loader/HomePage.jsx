@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 import Home from '../Home/Home'
-import About from '../About/About'
-import Domain from '../Domain/Domain'
+import About from '../About/About' 
 import Sponsors from '../Sponsors/Sponsors'
 import Organizer from '../Organizer/Organizer'
 import Timeline from '../Timeline/Timeline'
 import ProgressBar from '../Progress/ProgressBar'
 import GoToTop from '../GoToTop/GoToTop'
+import DomainNew from '../DomainNew/DomainNew'
+import FAQ from '../FAQ/FAQ'
 
 const HomePage = () => {
     const [scroll , setScroll ] = useState(0)
@@ -19,17 +20,17 @@ const HomePage = () => {
   } 
 
   return (
-    <>
+    <div>
             <ProgressBar scroll={scroll} />
             <GoToTop />
             <Home />
             <About />
-            <Domain />
+            <DomainNew />
             <Timeline />
             <Sponsors />
             <Organizer />
-            {/* <Footer /> */}
-    </>
+            <FAQ />
+    </div>
   )
 }
 
