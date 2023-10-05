@@ -1,13 +1,14 @@
 import React, { useState } from 'react'
 import Home from '../Home/Home'
 import About from '../About/About'
-import Domain from '../Domain/Domain'
 import Sponsors from '../Sponsors/Sponsors'
 import Organizer from '../Organizer/Organizer'
 import Timeline from '../Timeline/Timeline'
 import ProgressBar from '../Progress/Progress/ProgressBar'
 import GoToTop from '../GoToTop/GoToTop'
 import Footer from '../Footer/Footer/Footer'
+import DomainNew from '../DomainNew/DomainNew'
+import FAQ from '../FAQ/FAQ'
 
 const PostLoader = () => {
 
@@ -26,10 +27,11 @@ const PostLoader = () => {
       <GoToTop />
       <Home />
       <About />
-      <Domain />
+      <DomainNew />
       <Timeline />
       <Sponsors />
       <Organizer />
+      <FAQ />
       <Footer />
     </>
   )
