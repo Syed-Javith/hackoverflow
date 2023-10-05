@@ -5,7 +5,7 @@ const particlesConfig = {
     },
     "particles": {
         "number": {
-            "value": 5,
+            "value": 10,
             "density": {
                 "enable": false,
                 "value_area": 1000

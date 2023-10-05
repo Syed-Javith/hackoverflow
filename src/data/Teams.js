@@ -53,5 +53,31 @@ export const members = [
         index : 11,
         name : "Sneha KSJ",
         year : "III"
-    }
+    },
+    {
+        index : 12,
+        name : "ABC",
+        year : "IV"
+    }, {
+        index : 13,
+        name : "ABC",
+        year : "IV"
+    }, {
+        index : 14,
+        name : "ABC",
+        year : "IV"
+    }, {
+        index : 15,
+        name : "ABC",
+        year : "IV"
+    }, {
+        index : 16,
+        name : "ABC",
+        year : "IV"
+    },
+    {
+        index : 17,
+        name : "ABC",
+        year : "IV"
+    },
 ]

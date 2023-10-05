@@ -1,5 +1,6 @@
 import React from 'react';
 import './TeamsCard.css';
+import {FaInstagram} from 'react-icons/fa'
 
 const TeamsCard = (props) => {
   
@@ -17,7 +18,8 @@ const TeamsCard = (props) => {
               <span className="fas fa-plus-circle"></span>
             </div>
             <h5 className="carousel-item__details--title">{props.name}</h5>
-            <h6 className="carousel-item__details--subtitle">{props.year}</h6>
+            <h6 className="carousel-item__details--subtitle">{props.year} year CSE</h6>
+            <FaInstagram></FaInstagram>
           </div>
         </div>
     </>

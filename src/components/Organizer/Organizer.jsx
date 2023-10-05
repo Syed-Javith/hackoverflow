@@ -7,11 +7,10 @@ import rhikshitha from '../../images/organizers/rhikshitha.jpeg'
 import manosanjay from '../../images/organizers/manosanjay.jpeg'
 import VanillaTilt from 'vanilla-tilt'
 import { useEffect } from 'react'
-import {FaAngleLeft, FaAngleRight} from 'react-icons/fa'
+import { Link } from 'react-router-dom'
+import {FaAngleLeft, FaAngleRight , FaChevronRight} from 'react-icons/fa'
 
 function Organizer(){
-
-    // const [isDragging,setIsDragging] = useState(false)
 
     useEffect(()=>{
         
@@ -30,20 +29,6 @@ function Organizer(){
             glare:1,
             "max-glare":.4
         })
-
-        // const dragging = (e) => {
-        //    if(!isDragging){
-        //     return
-        //    }
-        //    organizers.scrollLeft -= e.movementX
-        // }
-        // const dragStop = () => {
-        //     setIsDragging(false)
-        // }
-
-        // organizers.addEventListener("mousedown",()=>setIsDragging(true))
-        // organizers.addEventListener("mousemove",(e)=>dragging(e))
-        // document.addEventListener("mouseup",dragStop)
    },[])
 
     return (
@@ -154,6 +139,7 @@ function Organizer(){
                 </div>
                 <div className="org-icon" icon='right'><FaAngleRight /></div>
             </div>  
+            <button className='btn btn-outline-light organizer-button'><Link to='/teams'>Team Members <FaChevronRight/></Link></button>
         </div>
     )
 }

@@ -29,6 +29,9 @@
   position: relative;
   margin: 2rem;
 }
+.carousel_item:hover{
+  transform: scale(1.1);
+}
 
 .carousel-item:hover ~ .carousel-item {
   -webkit-transform: translate3d(100px, 0, 0);

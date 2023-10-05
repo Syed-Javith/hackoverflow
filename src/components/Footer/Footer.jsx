@@ -4,6 +4,7 @@ import MediaLinks from './MediaLinks'
 import Logo from '../../images/logo_sym.png'
 import QuickLinks from './QuickLinks'
 import College from './College'
+
 function Footer(){
   return (
     <footer>
@@ -30,6 +31,7 @@ function Footer(){
               <li><a href='tel:9876543210'>Subhash - 9876543210 </a></li>
               <li><a href='tel:9876543210'>Surya Prakash - 9876543210 </a></li>
             </ul>
+            
         </div>
       </div>
       <MediaLinks />
