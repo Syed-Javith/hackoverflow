@@ -1,6 +1,7 @@
 import './Timeline.css'
 
 function Timeline(){
+    
     return (
         <div className="timeline-wrapper">
             <h2 className='section-title'>Timeline</h2>

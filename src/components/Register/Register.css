@@ -5,11 +5,15 @@
     text-align: left;
     animation: dimension 2s ease-in-out 1 alternate;
 }
-button{
-    background-color: #9c019a;
-    color: white;
-    font-size: 20px;
-    border-radius: 50%;
+.btn.btn-primary{
+  --bs-btn-bg: rgb(156, 1, 154,0.7);
+  --bs-btn-border-color: rgb(156, 1, 154,0.7);
+  --bs-btn-hover-bg: rgb(156, 1, 154,0.3);
+  --bs-btn-hover-border-color: #9c019a;
+  --bs-btn-disabled-bg: #9c019a;
+  --bs-btn-disabled-border-color: #9c019a;
+  --bs-btn-active-bg: #9c019a;
+  --bs-btn-active-border-color: #9c019a;
 }
 #text h1{
     color:#FF00E6;
@@ -18,7 +22,7 @@ button{
     letter-spacing:10px;
     animation: text-flicker 3s linear infinite;
   }
-  #text , .flick{
+#text , .flick{
     text-align:center;
     border:5px solid rgb(183, 0, 255);
     width: 60%;
@@ -89,45 +93,48 @@ button{
   @keyframes border-flicker {
     0% {
       opacity:0.1;
-      -webkit-box-shadow: 0px 0px 78px 4px rgba(183, 0, 255,0.73);
-  -moz-box-shadow: 0px 0px 78px 4px rgba(183, 0, 255,0.73);
-  box-shadow: 0px 0px 78px 4px rgba(183, 0, 255,0.73);
+      -webkit-box-shadow: 0px 0px 40px 4px rgba(183, 0, 255,0.73);
+  -moz-box-shadow: 0px 0px 40px 4px rgba(183, 0, 255,0.73);
+  box-shadow: 0px 0px 40px 4px rgba(183, 0, 255,0.73);
     }
     2% {
       opacity:1;
-      -webkit-box-shadow: 0px 0px 78px 4px rgba(183, 0, 255,0.73);
-  -moz-box-shadow: 0px 0px 78px 4px rgba(183, 0, 255,0.73);
-  box-shadow: 0px 0px 78px 4px rgba(183, 0, 255,0.73);
+      -webkit-box-shadow: 0px 0px 40px 4px rgba(183, 0, 255,0.73);
+  -moz-box-shadow: 0px 0px 40px 4px rgba(183, 0, 255,0.73);
+  box-shadow: 0px 0px 40px 4px rgba(183, 0, 255,0.73);
     }
     4% {
       opacity:0.1;
-      -webkit-box-shadow: 0px 0px 78px 4px rgba(183, 0, 255,0.73);
-  -moz-box-shadow: 0px 0px 78px 4px rgba(183, 0, 255,0.73);
-  box-shadow: 0px 0px 78px 4px rgba(183, 0, 255,0.73);
+      -webkit-box-shadow: 0px 0px 40px 4px rgba(183, 0, 255,0.73);
+  -moz-box-shadow: 0px 0px 40px 4px rgba(183, 0, 255,0.73);
+  box-shadow: 0px 0px 40px 4px rgba(183, 0, 255,0.73);
     }
     
     8% {
       opacity:1;
-      -webkit-box-shadow: 0px 0px 78px 4px rgba(183, 0, 255,0.73);
-  -moz-box-shadow: 0px 0px 78px 4px rgba(183, 0, 255,0.73);
-  box-shadow: 0px 0px 78px 4px rgba(183, 0, 255,0.73);
+      -webkit-box-shadow: 0px 0px 40px 4px rgba(183, 0, 255,0.73);
+  -moz-box-shadow: 0px 0px 40px 4px rgba(183, 0, 255,0.73);
+  box-shadow: 0px 0px 40px 4px rgba(183, 0, 255,0.73);
     }
     70% {
       opacity:0.7;
-      -webkit-box-shadow: 0px 0px 78px 4px rgba(183, 0, 255,0.73);
-  -moz-box-shadow: 0px 0px 78px 4px rgba(183, 0, 255,0.73);
-  box-shadow: 0px 0px 78px 4px rgba(183, 0, 255,0.73);
+      -webkit-box-shadow: 0px 0px 40px 4px rgba(183, 0, 255,0.73);
+  -moz-box-shadow: 0px 0px 40px 4px rgba(183, 0, 255,0.73);
+  box-shadow: 0px 0px 40px 4px rgba(183, 0, 255,0.73);
     }
     100% {
       opacity:1;
-      -webkit-box-shadow: 0px 0px 78px 4px rgba(183, 0, 255,0.73);
-  -moz-box-shadow: 0px 0px 78px 4px rgba(183, 0, 255,0.73);
-  box-shadow: 0px 0px 78px 4px rgba(183, 0, 255,0.73);
+      -webkit-box-shadow: 0px 0px 40px 4px rgba(183, 0, 255,0.73);
+  -moz-box-shadow: 0px 0px 40px 4px rgba(183, 0, 255,0.73);
+  box-shadow: 0px 0px 40px 4px rgba(183, 0, 255,0.73);
     }
   }
   
 @media screen and (max-width : 430px) {
     .register-page{
         width: 90%;
+    }
+    #text h1{
+      font-size: 1.75rem;
     }
 }

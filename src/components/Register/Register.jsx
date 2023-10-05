@@ -19,7 +19,7 @@ const Register = () => {
         <li>Respect: Treat all participants, mentors, and organizers with respect and professionalism. Harassment of any kind will not be tolerated.</li>
         <li>Fair Play: Avoid unethical practices, cheating, or hacking beyond the scope of the event. Respect intellectual property rights.</li>
       </ol>
-      <p><strong>Register for HackOverFlow</strong> <button>Here</button> </p>
+      <button className='btn btn-primary'>Register here</button>
     </div>
     </>
   )
