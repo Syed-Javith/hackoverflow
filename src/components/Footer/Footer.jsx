@@ -10,6 +10,9 @@ const Footer = () => {
     <footer>
       <div className='row'>
         <div className="col-lg-3">
+          <img src={Logo} height={200} width={200}/>
+        </div>
+        <div className="col-lg-3">
             <div className="row">
             <QuickLinks />
             <div className="col">
@@ -21,9 +24,9 @@ const Footer = () => {
         <div className="col-lg-3">
             <div className="row">
               <College />
-              {/* <div className="col">
+              <div className="col">
                 
-              </div> */}
+              </div>
             </div>
         </div> 
         <div className="col-lg-3">
@@ -33,11 +36,6 @@ const Footer = () => {
                   <li><a href='tel:9876543210'>Subhash - 9876543210 </a></li>
                   <li><a href='tel:9876543210'>Surya Prakash - 9876543210 </a></li>
                 </ul>
-        </div>
-        <div className="col-lg-3">
-
-        <p><span className='register'>register</span> for the event here</p>
-          <img src={Logo} height={200} width={200}/>
         </div>
       </div>
       <MediaLinks />

@@ -40,7 +40,7 @@ const Timer = () => {
 
   return (
     <div className='timer-container'>
-        <div className="timer-circle" style={{"--clr":"#fff"}}>
+        <div className="timer-circle" style={{"--clr":"#f408f4"}}>
           <div className="dots day_dot"></div>
           <svg>
             <circle cx="70" cy="70" r="70"></circle>
@@ -48,7 +48,7 @@ const Timer = () => {
           </svg>
           <div id="days">{days} <br /><span>days</span></div>
         </div>
-        <div className="timer-circle" style={{"--clr":"#ff2972"}}>
+        <div className="timer-circle" style={{"--clr":"#f408f4"}}>
           <div className="dots hr_dot"></div>
           <svg>
             <circle cx="70" cy="70" r="70"></circle>
@@ -56,7 +56,7 @@ const Timer = () => {
           </svg>
           <div id="hours">{hours} <br /><span>hours</span></div>
         </div>
-        <div className="timer-circle" style={{"--clr":"#fee800"}}>
+        <div className="timer-circle" style={{"--clr":"#f408f4"}}>
           <div className="dots min_dot"></div>
           <svg>
             <circle cx="70" cy="70" r="70"></circle>
@@ -64,7 +64,7 @@ const Timer = () => {
           </svg>
           <div id="minutes">{minutes} <br /><span>minutes</span></div>
         </div>
-        <div className="timer-circle" style={{"--clr":"#04fc43"}}>
+        <div className="timer-circle" style={{"--clr":"#f408f4"}}>
           <div className="dots sec_dot"></div>
           <svg>
             <circle cx="70" cy="70" r="70"></circle>
