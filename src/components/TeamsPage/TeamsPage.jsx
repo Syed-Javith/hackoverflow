@@ -2,7 +2,7 @@ import React from 'react'
 import './TeamsPage.css'
 import TeamsCard from './TeamsCard/TeamsCard'
 import { members } from '../../data/Teams'
-const TeamsPage = () => {
+export const TeamsPage = () => {
   return (
     <div>
       <div className="background"></div>

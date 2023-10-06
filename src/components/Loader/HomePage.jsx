@@ -6,8 +6,9 @@ import Organizer from '../Organizer/Organizer'
 import Timeline from '../Timeline/Timeline'
 import ProgressBar from '../Progress/ProgressBar'
 import GoToTop from '../GoToTop/GoToTop'
-import DomainNew from '../DomainNew/DomainNew'
+// import DomainNew from '../DomainNew/DomainNew'
 import FAQ from '../FAQ/FAQ'
+import Domain from '../Domain/Domain'
 
 const HomePage = () => {
     const [scroll , setScroll ] = useState(0)
@@ -25,7 +26,7 @@ const HomePage = () => {
             <GoToTop />
             <Home />
             <About />
-            <DomainNew />
+            <Domain />
             <Timeline />
             <Sponsors />
             <Organizer />

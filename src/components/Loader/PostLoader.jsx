@@ -1,14 +1,10 @@
 import React, { useState } from 'react'
-import Navbar from '../Navbar/Navbar'
-import Home from '../Home/Home'
-import About from '../About/About'
-import Domain from '../Domain/Domain'
-import Sponsors from '../Sponsors/Sponsors'
-import Organizer from '../Organizer/Organizer'
-import Timeline from '../Timeline/Timeline'
-import ProgressBar from '../Progress/Progress/ProgressBar'
-import GoToTop from '../GoToTop/GoToTop'
+import {Route, BrowserRouter as Router, Routes} from "react-router-dom"
 import Footer from '../Footer/Footer'
+import ParticleBackground from '../Particles/ParticlesBackground'
+import HomePage from './HomePage'
+import Register from '../Register/Register'
+import TeamsPage from '../TeamsPage/TeamsPage'
 
 const PostLoader = () => {
 
@@ -23,7 +19,7 @@ const PostLoader = () => {
 
   return (
     <Router>
-       <ParticleBackground/>
+      <ParticleBackground/>
       <Routes>
         <Route path='/' element={<HomePage />} />
             

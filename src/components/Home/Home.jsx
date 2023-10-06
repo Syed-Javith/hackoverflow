@@ -2,6 +2,7 @@ import './Home.css'
 import Timer from '../Timer/Timer';
 import logo from '../../images/logo.png'
 import rec from '../../images/rec_logo.png'
+import { Link } from 'react-router-dom';
 
 function Home(){
     return (
@@ -12,6 +13,7 @@ function Home(){
                 <p>proudly presents</p>
                 <img src={logo} alt="" className='hackoverflow-logo'/>
                 <Timer />
+                <Link to={'/register'}>Register</Link>
             </div>
         </div>
     )
