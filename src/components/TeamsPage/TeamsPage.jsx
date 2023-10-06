@@ -2,8 +2,11 @@ import React from 'react'
 import './TeamsPage.css'
 import TeamsCard from './TeamsCard/TeamsCard'
 import { members } from '../../data/Teams'
+import ParticleBackground from '../Particles/ParticlesBackground'
 export const TeamsPage = () => {
   return (
+    <>
+    {/* <ParticleBackground /> */}
     <div>
       <div className="background"></div>
     <div className="background-texture"></div>
@@ -19,6 +22,7 @@ export const TeamsPage = () => {
       </div>
     </section>
     </div>
+    </>
   )
 }
 
