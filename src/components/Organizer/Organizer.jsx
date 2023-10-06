@@ -139,7 +139,7 @@ function Organizer(){
                 </div>
                 <div className="org-icon" icon='right'><FaAngleRight /></div>
             </div>  
-            <button className='btn btn-outline-light organizer-button'><Link to='/teams'>Team Members <FaChevronRight/></Link></button>
+            <Link to='/teams'><button className='btn btn-outline-light organizer-button'>Team Members <FaChevronRight/></button></Link>
         </div>
     )
 }
