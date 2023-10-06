@@ -3,9 +3,9 @@ import ai from '../../images/domains/AI POS.png'
 import app from '../../images/domains/app pos.png'
 import web from '../../images/domains/web pos.png'
 
-import './DomainNew.css'
+import './Domain.css'
 
-export const DomainNew = () => {
+export const Domain = () => {
   return (
     <>
         <div class="wrapper">
@@ -78,4 +78,4 @@ export const DomainNew = () => {
   )
 }
 
-export default DomainNew
+export default Domain
