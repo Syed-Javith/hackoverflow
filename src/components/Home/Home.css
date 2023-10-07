@@ -53,12 +53,19 @@
     height: 125px;
     object-fit: cover;
 }
-#home-btn{
-    font-size: 1.5rem;
-    animation: see-more 2s linear infinite;
-}
-#home-btn:hover{
+.register-btn{
+    padding: 12px 30px;
+    border: 1px solid white;
+    color: transparent;
+    min-width: 25%;
+    max-width: fit-content;
+    text-align: center;
+    margin: auto;
     color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.35em;
+    box-shadow:  0 0 5px #b700ff,0 0 10px #b700ff,0 0 20px #b700ff,0 0 40px #b700ff;
 }
 
 @media screen and (max-width:1250px){

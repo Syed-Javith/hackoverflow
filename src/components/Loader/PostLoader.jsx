@@ -19,7 +19,6 @@ const PostLoader = () => {
 
   return (
     <Router>
-      <ParticleBackground/>
       <Routes>
         <Route path='/' element={<HomePage />} />
             
