@@ -48,3 +48,6 @@ iframe{
 footer .register{
     text-align: center;
 }
+footer div{
+    padding: 5px;
+}

@@ -1,76 +1,100 @@
 import React from 'react'
-import ai from '../../images/domains/AI POS.png'
-import app from '../../images/domains/app pos.png'
-import web from '../../images/domains/web pos.png'
+import game from '../../images/domains/GAME.png'
+import block from '../../images/domains/block chain.png'
+import ai from '../../images/domains/AI.png'
+import ar from '../../images/domains/AR VR.png'
+import web from '../../images/domains/Asset 1.png'
+import surprise from '../../images/domains/surprise domain.png'
+
+
 
 import './Domain.css'
-
-export const Domain = () => {
+// import { Button } from 'react-bootstrap/Button'
+const Domain = () => {
   return (
     <>
         <div class="wrapper">
         <div class="card-container">
             <img src={ai}/>
-            <button type="button">Click me</button>
+            <h2>AI</h2>
+            <button type="button">Know more</button>
             <div class="descriptions">
-                <h1>AI</h1>
                 <p>
-                    If you have a problem and there is nowhere else to turn, the mysterious and elusive Robert McCall will deliver the vigilante justice you seek. This time, however, McCall's past cuts especially close to home when thugs kill Susan Plummer -- his best friend and former colleague. Now out for revenge, McCall must take on a crew of highly trained assassins who'll stop at nothing to destroy him.
+                Unlock boundless potential with AI! Harness AI's power to decipher complex puzzles, predict outcomes and revolutionize industries. AI's ability to process vast amounts of data, recognize patterns and make predictions empowers industries to optimize operations, enhance decision-making and create innovative solutions.
                 </p>
                 
             </div>
         </div>
         <div class="card-container">
-            <img src={app} />
-            <button type="button">Click me</button>
+            <img src={ar} />
+            <h2>AR/VR</h2>
+            <button type="button">Know more</button>
             <div class="descriptions">
-                <h1>App Development</h1>
+                
                 <p>
-                    If you have a problem and there is nowhere else to turn, the mysterious and elusive Robert McCall will deliver the vigilante justice you seek. This time, however, McCall's past cuts especially close to home when thugs kill Susan Plummer -- his best friend and former colleague. Now out for revenge, McCall must take on a crew of highly trained assassins who'll stop at nothing to destroy him.              
+                Step into a new dimension with AR and VR! This cutting edge technology is used to blend the physical and digital world. AR enhances your reality while VR immerses you in entirely new worlds. They revolutionize education, healthcare, and entertainment, transforming problems into immersive, engaging experiences.                
+                </p>
+                <p style={{color:"#fff600"}}>*Requested to bring your own equipments</p>
+                
+            </div>
+        </div>
+        <div class="card-container">
+            <img src={block} />
+            <h2>Blockchain</h2>
+            <button type="button">Know more</button>
+            <div class="descriptions">
+                <p>
+                Utilize blockchain's secure, transparent, and decentralized features to convert problems into solutions. Eliminate the need for intermediaries, instill trust, and redefine across various domains. Beyond cryptocurrencies, blockchain is used in supply chains, identity verification, smart contracts, and more.       
                  </p>
                 
             </div>
         </div>
+        
         <div class="card-container">
-            <img src={web} />
-            <button type="button">Click me</button>
+            <img src={game} />
+            <h2>Game Development</h2>
+            <button type="button">Know more</button>
             <div class="descriptions">
-                <h1>Web Development</h1>
                 <p>
-                    If you have a problem and there is nowhere else to turn, the mysterious and elusive Robert McCall will deliver the vigilante justice you seek. This time, however, McCall's past cuts especially close to home when thugs kill Susan Plummer -- his best friend and former colleague. Now out for revenge, McCall must take on a crew of highly trained assassins who'll stop at nothing to destroy him.                </p>
-                
-            </div>
-        </div>
-        <div class="card-container">
-            <img src={ai} />
-            <button type="button">Click me</button>
-            <div class="descriptions">
-                <h1>Equalizer 2</h1>
-                <p>
-                    If you have a problem and there is nowhere else to turn, the mysterious and elusive Robert McCall will deliver the vigilante justice you seek. This time, however, McCall's past cuts especially close to home when thugs kill Susan Plummer -- his best friend and former colleague. Now out for revenge, McCall must take on a crew of highly trained assassins who'll stop at nothing to destroy him.                </p>
-                
-            </div>
-        </div>
-        <div class="card-container">
-            <img src={ai} />
-            <button type="button">Click me</button>
-            <div class="descriptions">
-                <h1>Equalizer 2</h1>
-                <p>
-                    If you have a problem and there is nowhere else to turn, the mysterious and elusive Robert McCall will deliver the vigilante justice you seek. This time, however, McCall's past cuts especially close to home when thugs kill Susan Plummer -- his best friend and former colleague. Now out for revenge, McCall must take on a crew of highly trained assassins who'll stop at nothing to destroy him.                
+                Game On! Join the ultimate game development showdown. Unleash your creativity, build breathtaking worlds, and fortify against digital threats. In this epic competition, your imagination is your greatest asset, and security is your winning strategy. Let the games begin!                
                 </p>
             </div>
         </div>
         <div class="card-container">
-            <img src= {ai}/>
-            <button type="button" className='button'>Click me</button>
+            <img src={web} />
+            <h2>Web Development with security</h2>
+            <button type="button">Know more</button>
             <div class="descriptions">
-                <h1>Equalizer 2</h1>
                 <p>
-                    If you have a problem and there is nowhere else to turn, the mysterious and elusive Robert McCall will deliver the vigilante justice you seek. This time, however, McCall's past cuts especially close to home when thugs kill Susan Plummer -- his best friend and former colleague. Now out for revenge, McCall must take on a crew of highly trained assassins who'll stop at nothing to destroy him.                </p>
+                Web development: where creativity meets cybersecurity. Building stunning websites demands more than just code – it demands an ironclad shield against cyber threats. Secure coding, encryption, and updates are our tools to protect your data and keep the website safe.      
+                </p>
                 
             </div>
         </div>
+    
+        <div class="card-container">
+            <img src={surprise} />
+            <h2>UiPath</h2>
+            <button type="button">Know more</button>
+            <div class="descriptions">
+                <p>
+
+                </p>
+                
+            </div>
+        </div>
+        <div class="card-container">
+            <img src={surprise} />
+            <h2>Surprise</h2>
+            <button type="button">Know more</button>
+            <div class="descriptions">
+                <p>
+
+                </p>
+                
+            </div>
+        </div>
+        
     </div>
 
 

@@ -13,7 +13,7 @@ function Home(){
                 <p>proudly presents</p>
                 <img src={logo} alt="" className='hackoverflow-logo'/>
                 <Timer />
-                <Link to={'/register'}>Register</Link>
+                <Link to={'/register'}><button className='btn btn-outline-light' id='home-btn'>Register</button> </Link>
             </div>
         </div>
     )

@@ -1,9 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './TeamsPage.css'
 import TeamsCard from './TeamsCard/TeamsCard'
 import { members } from '../../data/Teams'
-import ParticleBackground from '../Particles/ParticlesBackground'
 export const TeamsPage = () => {
+
+  useEffect(()=>{
+    const scrollToTop = () =>{
+      window.scrollTo({
+        top: 0, 
+        behavior: 'smooth'
+      });
+    };
+    scrollToTop();
+  })
+
   return (
     <>
     {/* <ParticleBackground /> */}
@@ -12,7 +22,7 @@ export const TeamsPage = () => {
     <div className="background-texture"></div>
 
     <section className="carousel">
-      <h2 className="title">Members</h2>
+      <h2 className="title"  id='members'>Members</h2>
       <div className="carousel__container">
       {
         members.map((member)=> {
