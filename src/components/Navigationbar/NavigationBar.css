@@ -1,17 +1,11 @@
-.header{
-    position: fixed;
-    padding:.25em 1.5em;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    background-color: rgba(0,0,0,0.5);
-    z-index: 100;
-}
 nav{
     position: fixed;
     top: 0;
+    filter: brightness(70%);
+}
+#nav-img{
+    height: 35px;
+    width: 35px;
 }
 .header nav{
     display: flex;
@@ -40,45 +34,16 @@ nav{
     text-decoration: none;
     color: white;
 }
-@media screen and (max-width:1400px) {
-    .header{
-        position: relative;
-        padding: 1.25em;
+.nav-link{
+   
+    --bs-nav-link-color : white
+}
+@media screen and(max-width : 992px) {
+    .ml-auto.navbar-nav{
+        width: 50%;
+        background-color: rgba(5,5,5,0.7)!important;
     }
-    .header nav{
-        position: absolute;
-        display: block;
-        top:99%;
-        left:0;
-        right: 0;
-        z-index: 5;
-        width: 100%;
-        background-color: rgba(255,255,255,0.2);
-        padding: 0;
-    }
-    .navbar-container{
-        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-        transition: 0.3s ease;
-    }
-    .header nav p{
-        display: block;
-        text-align: center;
-        padding-bottom: 1.25em;
-    }
-    .header nav p:hover{
-        border-bottom:0;
-    }
-    #menu-btn{
-        display: block;
-        padding: 10px;
-        border: 2px solid white;
-        border-radius: 5px;
-        font-size: 1.3em;
-    }
-    #menu-btn:hover{
-        cursor: pointer;
-    }
-    .open-menu{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    span.navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     }
 }
