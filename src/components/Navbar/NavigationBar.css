@@ -11,13 +11,11 @@ nav.navbar{
 #nav-img{
     height: 40px;
     width: 30px;
-    /* filter: brightness(70%); */
     position: absolute;
     left: 20px;
     top: 15px;
 }
-.nav-link{
-   
+.nav-link{  
     --bs-nav-link-color : white
 }
 span.navbar-toggler-icon {
@@ -40,7 +38,6 @@ span.navbar-toggler-icon {
     flex-direction: row;
     margin-left: auto;
 }
-
 }
 @media screen and (max-width : 992px) {
     .navbar-collapse .box.navbar-nav{
