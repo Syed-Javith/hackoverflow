@@ -9,8 +9,7 @@ import GoToTop from '../GoToTop/GoToTop'
 // import DomainNew from '../DomainNew/DomainNew'
 import FAQ from '../FAQ/FAQ'
 import Domain from '../Domain/Domain'
-import ParticleBackground from '../Particles/ParticlesBackground'
-import Navigationbar from '../Navigationbar/NavigationBar'
+import Navigationbar from '../Navbar/NavigationBar'
 
 const HomePage = () => {
     const [scroll , setScroll ] = useState(0)
@@ -24,17 +23,16 @@ const HomePage = () => {
 
   return (
     <div>
-      <ParticleBackground />
-      <ProgressBar scroll={scroll} />
-      <GoToTop />
-      <Navigationbar />
-      <Home />
-      <About />
-      <Domain />
-      <Timeline />
-      <Sponsors />
-      <Organizer />
-      <FAQ />
+            <Navigationbar />
+            <ProgressBar scroll={scroll} />
+            <GoToTop />
+            <Home />
+            <About />
+            <Domain />
+            <Timeline />
+            <Sponsors />
+            <Organizer />
+            <FAQ />
     </div>
   )
 }

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function Home(){
     return (
-        <div className="home-container">
+        <div className="home-container" id='home'>
             <div className="home-content" style={{marginTop:"2em"}}>
                 <img src={rec} alt="" className='rec-logo'/>
                 <h1>Department of CSE</h1>
@@ -17,8 +17,7 @@ function Home(){
                     <div className="register-btn">
                         Register
                     </div>
-                </Link>
-            </div>
+                </Link>            </div>
         </div>
     )
 }

@@ -16,9 +16,9 @@
 }
 .home-content{
     position: absolute;
-    top:50%;
+    top:8%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translateX(-50%);
     text-align: center;
     color: white;
 }
@@ -65,7 +65,20 @@
     text-decoration: none;
     border-radius: 8px;
     font-size: 1.35em;
+    background-color: transparent;
     box-shadow:  0 0 5px #b700ff,0 0 10px #b700ff,0 0 20px #b700ff,0 0 40px #b700ff;
+    animation: see-more 2s linear infinite;
+}
+@keyframes see-more {
+    0%{
+        transform: scale(1.0);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1.0);
+    }
 }
 
 @media screen and (max-width:1250px){

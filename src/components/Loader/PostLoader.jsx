@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import {Route, BrowserRouter as Router, Routes} from "react-router-dom"
 import Footer from '../Footer/Footer'
 import ParticleBackground from '../Particles/ParticlesBackground'
@@ -8,17 +8,9 @@ import TeamsPage from '../TeamsPage/TeamsPage'
 
 const PostLoader = () => {
 
-  const [scroll , setScroll ] = useState(0)
-  
-  window.onscroll = () => {
-    var winScroll = document.body.scrollTop || document.documentElement.scrollTop
-    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight
-    var scrolled = (winScroll / height) * 100
-    setScroll(scrolled)
-  } 
-
   return (
     <Router>
+      <ParticleBackground/>
       <Routes>
         <Route path='/' element={<HomePage />} />
             

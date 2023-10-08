@@ -1,6 +1,5 @@
 import React from 'react'
 import './Register.css'
-import ParticleBackground from '../Particles/ParticlesBackground'
 export const Register = () => {
   return (
     <>

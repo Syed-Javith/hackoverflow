@@ -12,10 +12,11 @@ import './Domain.css'
 // import { Button } from 'react-bootstrap/Button'
 const Domain = () => {
   return (
-    <>
-        <div class="wrapper">
+    <div  id='domains'>
+    <h2 className='section-title'>Domains</h2>
+        <div class="wrapper section-wrapper">
         <div class="card-container">
-            <img src={ai}/>
+            <img src={ai} alt='domains of cse'/>
             <h2>AI</h2>
             <button type="button">Know more</button>
             <div class="descriptions">
@@ -26,7 +27,7 @@ const Domain = () => {
             </div>
         </div>
         <div class="card-container">
-            <img src={ar} />
+            <img src={ar} alt='domains of cse'/>
             <h2>AR/VR</h2>
             <button type="button">Know more</button>
             <div class="descriptions">
@@ -39,7 +40,7 @@ const Domain = () => {
             </div>
         </div>
         <div class="card-container">
-            <img src={block} />
+            <img src={block} alt='domains of cse'/>
             <h2>Blockchain</h2>
             <button type="button">Know more</button>
             <div class="descriptions">
@@ -51,7 +52,7 @@ const Domain = () => {
         </div>
         
         <div class="card-container">
-            <img src={game} />
+            <img src={game} alt='domains of cse'/>
             <h2>Game Development</h2>
             <button type="button">Know more</button>
             <div class="descriptions">
@@ -61,35 +62,39 @@ const Domain = () => {
             </div>
         </div>
         <div class="card-container">
-            <img src={web} />
+            <img src={web} alt='domains of cse'/>
             <h2>Web Development with security</h2>
             <button type="button">Know more</button>
             <div class="descriptions">
                 <p>
-                Web development: where creativity meets cybersecurity. Building stunning websites demands more than just code – it demands an ironclad shield against cyber threats. Secure coding, encryption, and updates are our tools to protect your data and keep the website safe.      
+                Web development: where creativity meets cybersecurity. Building stunning websites demands more than just code - it demands an ironclad shield against cyber threats. Secure coding, encryption, and updates are our tools to protect your data and keep the website safe.      
                 </p>
                 
             </div>
         </div>
     
         <div class="card-container">
-            <img src={surprise} />
+            <img src={surprise} alt='domains of cse'/>
             <h2>UiPath</h2>
             <button type="button">Know more</button>
             <div class="descriptions">
                 <p>
+                
+                Experience the power of UiPath, where automation meets innovation! Join us for a journey into the world of Robotic Process Automation (RPA), where tasks are streamlined, processes are optimized, and efficiency soars to new heights.
+
 
                 </p>
                 
             </div>
         </div>
         <div class="card-container">
-            <img src={surprise} />
+            <img src={surprise} alt='domains of cse'/>
             <h2>Surprise</h2>
             <button type="button">Know more</button>
             <div class="descriptions">
                 <p>
 
+Welcome to the most exhilarating event of the year, where your adaptability, creativity, and problem-solving skills will be put to the test like never before. Get ready for the "Surprise Domain" challenge! Prepare to embrace the unexpected and unlock your innovation potential.
                 </p>
                 
             </div>
@@ -98,7 +103,7 @@ const Domain = () => {
     </div>
 
 
-    </>
+    </div>
   )
 }
 

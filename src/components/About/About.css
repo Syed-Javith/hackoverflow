@@ -8,6 +8,9 @@
   letter-spacing: 0.08em;
   text-shadow:  0 0 10px #b700ff,0 0 20px #b700ff,0 0 40px #b700ff,0 0 80px #b700ff,0 0 120px #b700ff;
 }
+#about-us p{
+  font-size: 1.25rem;
+}
 .animated-border-box, .animated-border-box-glow{
     padding: 1.5rem;
     margin: auto 3rem;

@@ -2,51 +2,51 @@ import React from 'react'
 import './Sponsors.css'
 const Sponsors = () => {
   return (
-    <div className='sponsor-container'>
+    <div id='sponsors' className='sponsor-container'>
       <h2 className='section-title'>Sponsors</h2>
       <div class="slider">
         <div class="slide-track">
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+            <img src={require('../../images/sponsors/logo1.png')} height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+            <img src={require('../../images/sponsors/logo2.png')} height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+            <img src={require('../../images/sponsors/logo3.png')} height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+            <img src={require('../../images/sponsors/logo4.png')} height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+            <img src={require('../../images/sponsors/uipath.png')} height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+            <img src={require('../../images/sponsors/logo1.png')} height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+            <img src={require('../../images/sponsors/logo2.png')} height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+            <img src={require('../../images/sponsors/logo3.png')} height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+            <img src={require('../../images/sponsors/logo4.png')} height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+            <img src={require('../../images/sponsors/uipath.png')} height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+            <img src={require('../../images/sponsors/logo1.png')} height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+            <img src={require('../../images/sponsors/logo2.png')} height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+            <img src={require('../../images/sponsors/logo3.png')} height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+            <img src={require('../../images/sponsors/logo4.png')} height="100" width="250" alt="" />
           </div>
         </div>
       </div>
